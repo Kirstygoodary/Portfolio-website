@@ -5,24 +5,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>My Portfolio Site</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/f711f0c3a0.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <style>
-        body {
-       background-image: "/images/background.jpg";
-        }
-        </style>
-    <h1 class="title"> Kirsty's Portfolio Site </h1>
-    <nav></nav>
-    <a href="index.html">Home</a>
-    <a href="about.html">About</a>
-    <p> Welcome to my website. Please enjoy your stay</p>
-    <h2>Summary</h2>
-    <ul>
-        <li>About Me</li>
-        <li>Experience</li>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html">myPortfolio</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav navbar">
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About Me</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact Me</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav navbar-right"></ul>
+                <a class="github" href="https://github.com/Kirstygoodary"><i class="fab fa-github"></i></a>
+            </ul>
+            </div>
+    </nav>
+
+        <div class="jumbotron">
+            <h1 class="display-4">Hello. Welcome to my Portfolio site.</h1>
+            <p class="lead">Welcome to my website. Please enjoy your stay.</p>
+            <hr class="my-4">
+        </div>
 
     </ul>
+    
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
 </body>
 </html>

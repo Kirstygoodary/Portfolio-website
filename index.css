@@ -1,4 +1,24 @@
 .title {
     font-size: 72pt;
-    color: pink;
+    color: #12A158;
+}
+
+button {
+    border: none;
+    background-color: #12A158;
+    position: right;
+}
+
+.jumbotron{
+    position: center;
+    text-align: center;
+    background-color: #12A158;
+}
+
+.navbar a:hover {
+    text-decoration-color: #12A158;
+}
+
+.github {
+    color: #12A158;
 }
